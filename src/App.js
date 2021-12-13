@@ -1,10 +1,10 @@
-import SassComponent from './SassComponent'
-import './App.css';
+import CSSMoudle from "./CSSModule";
+import StyledComponent from "./StyledComponent";
 
 function App() {
   return (
     <div className="App">
-      <SassComponent/>
+      <StyledComponent />
     </div>
   );
 }
